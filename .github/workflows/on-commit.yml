@@ -3,11 +3,13 @@ name: on-commit-action
 on:
   push:
     branches: 
--feat/ci-on-commit
-  
+     -feat/ci-on-commit
+
 jobs:
- my_action:   
+  my_action:   
     runs-on: ubuntu-latest
+    
     steps:
-      - name: print_python_version
+      - name: print_python_version 
         run: python --version
+  
