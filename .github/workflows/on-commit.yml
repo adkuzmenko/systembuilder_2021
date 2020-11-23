@@ -6,7 +6,7 @@ on:
      -feat/ci-on-commit
 
 jobs:
-  my_action:   
+  myaction:   
     runs-on: ubuntu-latest
     
     steps:
