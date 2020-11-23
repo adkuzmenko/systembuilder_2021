@@ -6,7 +6,7 @@ on:
 -feat/ci-on-commit
   
 jobs:
-  action:   
+ my_action:   
     runs-on: ubuntu-latest
     steps:
       - name: print_python_version
