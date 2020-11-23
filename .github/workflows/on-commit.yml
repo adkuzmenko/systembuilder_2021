@@ -3,9 +3,9 @@ name: on-commit-action
 on:
   push:
     branches: 
-  - feat/ci-on-commit
-        
-jobs: 
+-feat/ci-on-commit
+  
+jobs:
   action:   
     runs-on: ubuntu-latest
     steps:
